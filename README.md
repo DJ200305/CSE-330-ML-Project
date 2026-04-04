@@ -1,6 +1,6 @@
 ﻿# Log Anomaly Web Server
 
-This repo contains a FastAPI backend and a small React UI for LogBERT + Mistral log anomaly analysis.
+This repo contains a FastAPI backend and a small React UI for LogBERT + Meta-Llama-3-8B LLM log anomaly analysis with possible fixes
 
 ## Backend
 
