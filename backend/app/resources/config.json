@@ -1,0 +1,12 @@
+﻿{
+  "WINDOW_SIZE": 128,
+  "STEP_SIZE": 32,
+  "MASK_RATIO": 0.15,
+  "TOP_G": 5,
+  "THRESHOLD": 15,
+  "MAX_ANOMALIES": 50,
+  "REMOTE_LLM_URL": "https://jellylike-tussive-manuel.ngrok-free.dev",
+  "LOGBERT_PATH": "backend/app/resources/fn_logbert.pt",
+  "EVENT2ID_PATH": "backend/app/resources/event2id.json",
+  "ID_TO_TEMPLATE_PATH": "backend/app/resources/id_to_template.json"
+}
