@@ -5,7 +5,7 @@ Place your trained artifacts here:
 - `backend/app/resources/logbert.pt`
 - `backend/app/resources/event2id.json`
 - `backend/app/resources/id_to_template.json`
-- `backend/app/resources/llm_lade_results/` (Mistral fine-tuned model directory)
+- `backend/app/resources/llm_lade_results/` (Meta-Llama-3-8B fine-tuned model directory)
 
 You can also override paths with environment variables:
 - `LOGBERT_PATH`
@@ -14,9 +14,9 @@ You can also override paths with environment variables:
 - `LLM_DIR`
 
 Optional settings:
-- `WINDOW_SIZE` (default `10`)
+- `WINDOW_SIZE` (default `128`)
 - `MASK_RATIO` (default `0.15`)
-- `THRESHOLD` (default `1.0`)
+- `THRESHOLD` (default `15`)
 - `MAX_ANOMALIES` (default `50`)
 
 ## Run
