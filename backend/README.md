@@ -18,6 +18,7 @@ Optional settings:
 - `MASK_RATIO` (default `0.15`)
 - `THRESHOLD` (default `15`)
 - `MAX_ANOMALIES` (default `50`)
+- `TOP_G` (default `5`)
 
 ## Run
 ```bash
