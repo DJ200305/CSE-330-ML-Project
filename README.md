@@ -19,4 +19,7 @@ npm install
 npm run dev
 ```
 
+## Kaggle LLM Backend
+This backend is set up using ngrok. `inference-ngrok(1)` notebook is used.
+
 The UI calls `http://localhost:8000` by default. Override with `VITE_API_URL` if needed.
